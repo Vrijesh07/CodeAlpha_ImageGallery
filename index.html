@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>My Image Gallery</h1>
+
+    <div class="gallery">
+        <img src="https://picsum.photos/id/3/600/400" alt="Photo 1">
+        <img src="https://picsum.photos/id/11/600/400" alt="Photo 2">
+        <img src="https://picsum.photos/id/10/600/400" alt="Photo 3">
+        <img src="https://picsum.photos/id/76/600/400" alt="Photo 4">
+        <img src="https://picsum.photos/id/16/600/400" alt="Photo 5">
+        <img src="https://picsum.photos/id/22/600/400" alt="Photo 6">
+        <img src="https://picsum.photos/id/28/600/400" alt="Photo 7">
+        <img src="https://picsum.photos/id/29/600/400" alt="Photo 8">
+        <img src="https://picsum.photos/id/37/600/400" alt="Photo 9">
+        <img src="https://picsum.photos/id/42/600/400" alt="Photo 10">
+        <img src="https://picsum.photos/id/43/600/400" alt="Photo 11">
+        <img src="https://picsum.photos/id/49/600/400" alt="Photo 12">
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <button id="close" aria-label="Close">&times;</button>
+        <button id="prev" class="nav-button" aria-label="Previous photo">&#10094;</button>
+        <img id="lightbox-img" src="" alt="Enlarged photo">
+        <button id="next" class="nav-button" aria-label="Next photo">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
